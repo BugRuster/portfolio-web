@@ -4,6 +4,10 @@ header {
     padding-top: 7rem;
 }
 
+.profile-img {
+    height: 320px;
+}
+
 .header-container {
     height: 100%;
     text-align: center;
@@ -64,6 +68,10 @@ header {
     header {
         padding-top: 2rem;
         height: 100vh;
+    }
+
+    .profile-img {
+        height: 390px;
     }
 
     .header-socials,

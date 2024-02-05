@@ -23,6 +23,10 @@
     transition: var(--transition);
 }
 
+.about-img {
+    aspect-ratio: 1 / 1;
+}
+
 .about-me-image:hover {
     transform: rotate(0);
 }

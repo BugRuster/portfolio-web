@@ -1,4 +1,5 @@
 import "./About.css";
+import aboutImage from "../../assets/images/about-image.png";
 import { FaAward } from "react-icons/fa";
 import { MdSchool } from "react-icons/md";
 import { IoRocketSharp } from "react-icons/io5";
@@ -11,7 +12,11 @@ function About() {
 			<div className="container about-container">
 				<div className="about-me">
 					<div className="about-me-image">
-						<img src="" alt="About Anurag Sharma" />
+						<img
+							src={aboutImage}
+							alt="About Anurag Sharma"
+							className="about-img"
+						/>
 					</div>
 				</div>
 				<div className="about-content">

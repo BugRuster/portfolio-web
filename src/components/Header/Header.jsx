@@ -16,9 +16,13 @@ function Header() {
 				<CTA />
 				<HeaderSocials />
 				<div className="anurag">
-					{/* <img src={profileImage} alt="Anurag Sharma" /> */}
+					<img
+						src={profileImage}
+						alt="Anurag Sharma"
+						className="profile-img"
+					/>
 				</div>
-				<a href="#contacts" className="scroll-down">
+				<a href="#contact" className="scroll-down">
 					Scroll Down
 				</a>
 			</div>
