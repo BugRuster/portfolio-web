@@ -45,7 +45,7 @@ const data = [
 
 function Testimonials() {
 	return (
-		<section id="#testimonials">
+		<section id="testimonials">
 			<h5>Reviews from Coworkers</h5>
 			<h2>Testimonials</h2>
 			<Swiper

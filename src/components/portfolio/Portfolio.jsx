@@ -23,7 +23,7 @@ const data = [
 
 function Portfolio() {
 	return (
-		<section id="#portfolio">
+		<section id="portfolio">
 			<h2>Portfolio</h2>
 			<div className="container portfolio-container">
 				{data.map((data) => (
