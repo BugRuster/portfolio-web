@@ -1,4 +1,5 @@
 import Nav from "./components/nav/Nav";
+import About from "./components/about/About";
 import Header from "./components/header/Header";
 
 function App() {
@@ -6,6 +7,7 @@ function App() {
 		<>
 			<Header />
 			<Nav />
+			<About />
 			<p>Hello World!</p>
 			<p>Hello World!</p>
 			<p>Hello World!</p>
