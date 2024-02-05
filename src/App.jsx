@@ -1,10 +1,11 @@
+import Nav from "./components/nav/Nav";
 import Header from "./components/header/Header";
 
 function App() {
 	return (
 		<>
 			<Header />
-			<p>Hello World!</p>
+			<Nav />
 			<p>Hello World!</p>
 			<p>Hello World!</p>
 			<p>Hello World!</p>
