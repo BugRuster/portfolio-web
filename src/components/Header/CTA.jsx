@@ -1,7 +1,9 @@
+import CV from "../../assets/anurag-resume.pdf";
+
 function CTA() {
 	return (
 		<div className="CTA">
-			<a href="" className="btn">
+			<a href={CV} className="btn" download>
 				Download CV
 			</a>
 			<a href="#contact" className="btn btn-primary">
