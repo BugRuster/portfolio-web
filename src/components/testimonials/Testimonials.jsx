@@ -9,7 +9,7 @@ import "./Testimonials.css";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 // import required modules
-// import { Pagination } from "swiper/react";
+import { Pagination } from "swiper/modules";
 
 // Import Swiper styles
 import "swiper/css";
@@ -51,7 +51,7 @@ function Testimonials() {
 			<Swiper
 				className="container testimonials-container"
 				// install Swiper modules
-				// modules={[Pagination]}
+				modules={[Pagination]}
 				spaceBetween={40}
 				slidesPerView={1}
 				pagination={{ clickable: true }}
