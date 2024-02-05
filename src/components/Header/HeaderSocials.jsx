@@ -1,6 +1,6 @@
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
-import { FaInstagram } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
 
 function HeaderSocials() {
 	return (
@@ -11,8 +11,8 @@ function HeaderSocials() {
 			<a href="https://www.linkedin.com/in/bugruster/sdfjsdfjsdjifsdjifs">
 				<FaLinkedin />
 			</a>
-			<a href="youtube">
-				<FaInstagram />
+			<a href="https://twitter.com/bugruster">
+				<FaXTwitter />
 			</a>
 		</div>
 	);
