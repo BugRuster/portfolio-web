@@ -4,7 +4,7 @@ const data = [
 	{
 		id: 1,
 		title: "Cisco Certified Network Associate Security",
-		imgSrc: "src/assets/images/certifications/ccna-img.png",
+		imgSrc: "src/assets/images/certifications/ccna.png",
 		showLink:
 			"https://www.credly.com/badges/b34cf7f8-4c14-47f5-a965-38768243dbc2",
 	},
@@ -18,9 +18,63 @@ const data = [
 	{
 		id: 3,
 		title: "Cybersecurity Roles, Processes & Operating System Security",
-		imgSrc: "src/assets/images/certifications/cybersecurity-roles-processes-and-os-security-img.png",
+		imgSrc: "src/assets/images/certifications/cybersecurity-roles-processes-and-os-security.png",
 		showLink:
 			"https://www.coursera.org/account/accomplishments/verify/TCUE6JEESK2T",
+	},
+	{
+		id: 4,
+		title: "High-Impact Business Writing",
+		imgSrc: "src/assets/images/certifications/high-impact-business-writing.png",
+		showLink:
+			"https://www.coursera.org/account/accomplishments/verify/58YW4Z3HAGFZ",
+	},
+	{
+		id: 5,
+		title: "Data Structures",
+		imgSrc: "src/assets/images/certifications/data-structures.png",
+		showLink:
+			"https://www.coursera.org/account/accomplishments/verify/58YW4Z3HAGFZ",
+	},
+	{
+		id: 6,
+		title: "Introduction to Bash Shell Scripting",
+		imgSrc: "src/assets/images/certifications/intro-to-bash-shell-scripting.png",
+		showLink:
+			"https://www.coursera.org/account/accomplishments/verify/33SZPBKBGEXG",
+	},
+	{
+		id: 7,
+		title: "Cyber Security Fundamentals",
+		imgSrc: "src/assets/images/certifications/cyber-security-fundamentals.png",
+		showLink:
+			"https://www.coursera.org/account/accomplishments/verify/2R8XDRU5DNQ5",
+	},
+	{
+		id: 8,
+		title: "Introduction to Cybersecurity Tools & Cyber Attacks",
+		imgSrc: "src/assets/images/certifications/intro-to-cybersecurity-tools-and-cyber-attacks.png",
+		showLink:
+			"https://www.coursera.org/account/accomplishments/verify/5T9PZZCVB2EZ",
+	},
+	{
+		id: 9,
+		title: "Java (Basic) Certificate",
+		imgSrc: "src/assets/images/certifications/java-basic-certificate.png",
+		showLink: "https://www.hackerrank.com/certificates/c9c47f866df0",
+	},
+	{
+		id: 10,
+		title: "Python (Basic) Certificate",
+		imgSrc: "src/assets/images/certifications/python-basic-certificate.png",
+		showLink: "https://www.hackerrank.com/certificates/454ba8741101",
+	},
+	{
+		id: 11,
+		title: "Introduction to Virtual Reality",
+		imgSrc: "src/assets/images/certifications/intro-to-virtual-reality.png",
+		showLink:
+			"https://www.coursera.org/account/accomplishments/verify/UWBX29JUEHBX",
 	},
 ];
 
