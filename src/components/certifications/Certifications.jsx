@@ -4,28 +4,28 @@ const data = [
 	{
 		id: 1,
 		title: "Cisco Certified Network Associate Security",
-		imgSrc: "../../assets/images/certifications/ccna.png",
+		imgSrc: "/images/certifications/ccna.png",
 		showLink:
 			"https://www.credly.com/badges/b34cf7f8-4c14-47f5-a965-38768243dbc2",
 	},
 	{
 		id: 2,
 		title: "Introduction to Personal Branding",
-		imgSrc: "../../assets/images/certifications/intro-to-personal-branding.png",
+		imgSrc: "public/images/certifications/intro-to-personal-branding.png",
 		showLink:
 			"https://www.coursera.org/account/accomplishments/verify/Z93F772GD8WU",
 	},
 	{
 		id: 3,
 		title: "Cybersecurity Roles, Processes & Operating System Security",
-		imgSrc: "../../assets/images/certifications/cybersecurity-roles-processes-and-os-security.png",
+		imgSrc: "public/images/certifications/cybersecurity-roles-processes-and-os-security.png",
 		showLink:
 			"https://www.coursera.org/account/accomplishments/verify/TCUE6JEESK2T",
 	},
 	{
 		id: 4,
 		title: "High-Impact Business Writing",
-		imgSrc: "../../assets/images/certifications/high-impact-business-writing.png",
+		imgSrc: "public/images/certifications/high-impact-business-writing.png",
 		showLink:
 			"https://www.coursera.org/account/accomplishments/verify/58YW4Z3HAGFZ",
 	},
@@ -111,3 +111,15 @@ function Certifications() {
 }
 
 export default Certifications;
+
+// Anurag Sharma
+
+// Software Developer | Networking Enthusiast | Cybersecurity Enthusiast
+
+// Greetings! I’m Anurag Sharma, a seasoned software developer with a passion for crafting impactful digital experiences. With a solid foundation in networking from Cisco and a coveted CCNA certification, I’ve honed my skills in building robust websites and hybrid apps for mobile platforms.
+
+// My journey in the world of programming led me to achieve a 4-star rating on CodeChef, showcasing my prowess in problem-solving with Data Structures and Algorithms. Beyond conventional development, my interests extend to the realm of cybersecurity, where I’ve delved into securing digital landscapes.
+
+// Having explored the exciting field of AI/ML, I’ve contributed to projects that harness the power of artificial intelligence. Join me on this exciting journey as I continue to explore, innovate, and create in the ever-evolving landscape of technology.
+
+// Let’s build the future together!
