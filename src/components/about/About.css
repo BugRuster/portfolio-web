@@ -63,6 +63,7 @@
 }
 
 .about-card small {
+    display: block;
     font-size: 0.7rem;
     color: var(--color-light);
 }

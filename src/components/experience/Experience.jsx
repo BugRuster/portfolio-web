@@ -1,10 +1,10 @@
 import "./Experience.css";
 import { SiMui } from "react-icons/si";
-import { FaReact } from "react-icons/fa";
-import { FaNodeJs } from "react-icons/fa";
-import { SiMongodb } from "react-icons/si";
+import { SiCisco } from "react-icons/si";
+import { FaCss3 } from "react-icons/fa6";
+import { FaLinux } from "react-icons/fa6";
 import { SiFlutter } from "react-icons/si";
-import { SiExpress } from "react-icons/si";
+import { TbBrandCpp } from "react-icons/tb";
 import { AiOutlineHtml5 } from "react-icons/ai";
 import { IoLogoJavascript } from "react-icons/io";
 
@@ -19,9 +19,9 @@ function Experience() {
 					<h3>Frontend Development</h3>
 					<div className="xp-content">
 						<article className="xp-details">
-							<FaReact className="xp-details-icon" />
+							<AiOutlineHtml5 className="xp-details-icon" />
 							<div>
-								<h4>React</h4>
+								<h4>HTML5</h4>
 								<small className="text-light">
 									Experienced
 								</small>
@@ -29,9 +29,9 @@ function Experience() {
 						</article>
 
 						<article className="xp-details">
-							<SiMui className="xp-details-icon" />
+							<FaCss3 className="xp-details-icon" />
 							<div>
-								<h4>Material UI</h4>
+								<h4>CSS3</h4>
 								<small className="text-light">
 									Experienced
 								</small>
@@ -49,9 +49,9 @@ function Experience() {
 						</article>
 
 						<article className="xp-details">
-							<AiOutlineHtml5 className="xp-details-icon" />
+							<SiMui className="xp-details-icon" />
 							<div>
-								<h4>HTML5</h4>
+								<h4>Material UI</h4>
 								<small className="text-light">
 									Experienced
 								</small>
@@ -64,9 +64,9 @@ function Experience() {
 					<h3>Backend Development</h3>
 					<div className="xp-content">
 						<article className="xp-details">
-							<SiMongodb className="xp-details-icon" />
+							<SiCisco className="xp-details-icon" />
 							<div>
-								<h4>MongoDB</h4>
+								<h4>CCNA</h4>
 								<small className="text-light">
 									Experienced
 								</small>
@@ -74,9 +74,9 @@ function Experience() {
 						</article>
 
 						<article className="xp-details">
-							<FaNodeJs className="xp-details-icon" />
+							<FaLinux className="xp-details-icon" />
 							<div>
-								<h4>NodeJS</h4>
+								<h4>Linux</h4>
 								<small className="text-light">
 									Experienced
 								</small>
@@ -84,9 +84,9 @@ function Experience() {
 						</article>
 
 						<article className="xp-details">
-							<SiExpress className="xp-details-icon" />
+							<TbBrandCpp className="xp-details-icon" />
 							<div>
-								<h4>ExpressJS</h4>
+								<h4>C/C++</h4>
 								<small className="text-light">
 									Experienced
 								</small>

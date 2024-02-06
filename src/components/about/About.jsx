@@ -25,7 +25,7 @@ function About() {
 							<FaAward className="about-icon" />
 							<h5>Experience</h5>
 							<small>
-								3 years <br />
+								3 years of <br />
 								Develper Experience
 							</small>
 						</article>
@@ -43,8 +43,9 @@ function About() {
 							<MdSchool className="about-icon" />
 							<h5>Education</h5>
 							<small>
-								BTech. JKLU, Jaipur <br />
-								Bhavani Niketan
+								BTech- JKLU <br />
+								& <br />
+								Eklavya International Academy
 							</small>
 						</article>
 					</div>
