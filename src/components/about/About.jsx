@@ -1,5 +1,4 @@
 import "./About.css";
-import aboutImage from "../../assets/images/about-image.png";
 import { FaAward } from "react-icons/fa";
 import { MdSchool } from "react-icons/md";
 import { IoRocketSharp } from "react-icons/io5";
@@ -13,7 +12,7 @@ function About() {
 				<div className="about-me">
 					<div className="about-me-image">
 						<img
-							src={aboutImage}
+							src="images/about-image.png"
 							alt="About Anurag Sharma"
 							className="about-img"
 						/>
@@ -50,21 +49,20 @@ function About() {
 						</article>
 					</div>
 					<p>
-						I'm a frontend developer currently working with the GUI
-						of FEED, a large scale Product Information Management
-						system using Angular, NodeJS, TypeScript, HTML, LESS,
-						Git, IntelliJ, Jira & Material UI. My daily
-						responsibilities center around creating and maintaining
-						user interfaces that comunicating and exchanging data
-						with API's as well as creating and designing an
-						effective user experience.
+						Greetings! I'm Anurag Sharma, a seasoned software
+						developer with a passion for crafting impactful digital
+						experiences. With a solid foundation in networking from
+						Cisco and a coveted CCNA certification, I've honed my
+						skills in building robust websites and hybrid apps for
+						mobile platforms.
 					</p>
 					<p>
-						When I'm not coding at my job, I run a coding YouTube
-						channel with 9K subscribers and counting, called How To
-						Become A Developer, which has also been shared by
-						freeCodeCamp.org. This is the best place to see my code
-						and reasoning.
+						My journey in the world of programming led me to achieve
+						a 4-star rating on CodeChef, showcasing my prowess in
+						problem-solving with Data Structures and Algorithms.
+						Beyond conventional development, my interests extend to
+						the realm of cybersecurity, where I've delved into
+						securing digital landscapes.
 					</p>
 					<a href="#contact" className="btn btn-primary">
 						Let's Talk

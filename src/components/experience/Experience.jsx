@@ -1,5 +1,5 @@
 import "./Experience.css";
-import { SiMui } from "react-icons/si";
+import { GrMysql } from "react-icons/gr";
 import { SiCisco } from "react-icons/si";
 import { FaCss3 } from "react-icons/fa6";
 import { FaLinux } from "react-icons/fa6";
@@ -49,9 +49,9 @@ function Experience() {
 						</article>
 
 						<article className="xp-details">
-							<SiMui className="xp-details-icon" />
+							<SiFlutter className="xp-details-icon" />
 							<div>
-								<h4>Material UI</h4>
+								<h4>Flutter</h4>
 								<small className="text-light">
 									Experienced
 								</small>
@@ -66,7 +66,7 @@ function Experience() {
 						<article className="xp-details">
 							<SiCisco className="xp-details-icon" />
 							<div>
-								<h4>CCNA</h4>
+								<h4>Networking</h4>
 								<small className="text-light">
 									Experienced
 								</small>
@@ -94,9 +94,9 @@ function Experience() {
 						</article>
 
 						<article className="xp-details">
-							<SiFlutter className="xp-details-icon" />
+							<GrMysql className="xp-details-icon" />
 							<div>
-								<h4>Flutter</h4>
+								<h4>MySQL</h4>
 								<small className="text-light">
 									Experienced
 								</small>
