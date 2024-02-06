@@ -9,6 +9,9 @@
     padding: 1.3rem;
     border-radius: 2rem;
     border: 1px solid transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     transition: var(--transition);
 }
 
