@@ -1,9 +1,4 @@
 import "./Testimonials.css";
-// import AVTR1 from "../../assets/bastian.jpg";
-// import AVTR2 from "../../assets/marie.jpg";
-// import AVTR3 from "../../assets/ksenia.jpg";
-// import AVTR4 from "../../assets/iselin.jpg";
-// import AVTR5 from "../../assets/balraj.jpg";
 
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -17,29 +12,24 @@ import "swiper/css/pagination";
 
 const data = [
 	{
-		avatar: "AVTR1",
-		name: "Bastian",
-		review: "Ademir comes up with ideas easily, and his ability to question the status quo is impressive. In our daily work, he drives our team not only with constant contribution but also with his visionary mind.",
+		avatar: "/images/avatars/krisha-avatar.png",
+		name: "Krisha",
+		review: "Anurag Sharma is an outstanding software developer who brought unparalleled expertise to our projects. His meticulous attention to detail, problem-solving skills, and commitment to excellence made him a valuable asset to our team. Anurag's ability to seamlessly navigate both web development and hybrid app creation showcases his versatility and dedication to delivering top-notch solutions.",
 	},
 	{
-		avatar: "AVTR2",
-		name: "Marie",
-		review: "We worked closely in a team over a periode of four months, and I couldn't have asked for a better partner! Ademir is extremely dedicated, and always askes the right questions in order to be on the right track.",
+		avatar: "/images/avatars/sachin-avatar.png",
+		name: "Sachin Chawala",
+		review: "Anurag Sharma is an outstanding software developer who brought unparalleled expertise to our projects. His meticulous attention to detail, problem-solving skills, and commitment to excellence made him a valuable asset to our team. Anurag's ability to seamlessly navigate both web development and hybrid app creation showcases his versatility and dedication to delivering top-notch solutions.",
 	},
 	{
-		avatar: "AVTR3",
-		name: "Ksenia",
-		review: "I had the pleasure of working with Ademir on an extensive project and Ademir is very tidy, structured and keen to find good solutions for problems. For me, he has been a good partner and I have benefited a lot from discussing with him.",
+		avatar: "/images/avatars/ashish-avatar.png",
+		name: "Ashish Kumar",
+		review: "It's rare to find someone as passionate and knowledgeable about cybersecurity as Anurag. His dedication to ensuring the security of digital systems is evident in the projects he's undertaken. Anurag's insights and proactive approach make him a trusted ally in the ever-evolving landscape of cybersecurity.",
 	},
 	{
-		avatar: "AVTR4",
-		name: "Iselin",
-		review: "I worked with Ademir on a challenging trend analysis project. I would describe him as solution-oriented and adaptable. Last but not least, he is creative, good at design, and a great collaborator!",
-	},
-	{
-		avatar: "AVTR5",
-		name: "Balraj",
-		review: "I had the pleasure of working with Ademir on a very challenging project! He is good at finding simple and creative solutions to complex challenges. He is also very helpful, motivated and has great work capacity.",
+		avatar: "/images/avatars/ashutosh-avatar.png",
+		name: "Ashutosh Tiwari",
+		review: "Anurag's foray into AI/ML demonstrates his forward-thinking approach to technology. His contributions to AI projects reflect a keen understanding of machine learning principles and an ability to apply them creatively. Anurag is not just a developer; he's an innovator pushing the boundaries of what's possible in the world of artificial intelligence.",
 	},
 ];
 

@@ -45,7 +45,7 @@ function Footer() {
 				</a>
 			</div>
 			<div className="footer-copyright">
-				<small>&copy; Anurag Sharma. All rights reserved</small>
+				<small>&copy; BugRuster. All rights reserved</small>
 			</div>
 		</footer>
 	);
