@@ -24,7 +24,8 @@ const data = [
 function Portfolio() {
 	return (
 		<section id="portfolio">
-			<h2>Portfolio</h2>
+			<h5>Have a look at</h5>
+			<h2>My Portfolio</h2>
 			<div className="container portfolio-container">
 				{data.map((data) => (
 					<article key={data.id} className="portfolio-item">

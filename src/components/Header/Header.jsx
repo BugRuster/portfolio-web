@@ -10,7 +10,7 @@ function Header() {
 				<h5>Hello I'm</h5>
 				<h1>Anurag Sharma</h1>
 				<h5 className="text-light">
-					Flutter Developer | Cyber Security | CodeChef
+					Flutter Developer | Cyber Security | Cisco
 				</h5>
 				{/* call to action */}
 				<CTA />

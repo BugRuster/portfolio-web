@@ -4,6 +4,7 @@ import { GoHome } from "react-icons/go";
 import { FiBook } from "react-icons/fi";
 import { LuUser2 } from "react-icons/lu";
 import { RiServiceLine } from "react-icons/ri";
+import { GrCertificate } from "react-icons/gr";
 import { LuMessageSquare } from "react-icons/lu";
 
 function Nav() {
@@ -38,6 +39,13 @@ function Nav() {
 				className={activeItem === "#portfolio" ? "active" : ""}
 			>
 				<RiServiceLine />
+			</a>
+			<a
+				href="#certifications"
+				onClick={() => setActiveItem("#certifications")}
+				className={activeItem === "#certifications" ? "active" : ""}
+			>
+				<GrCertificate />
 			</a>
 			<a
 				href="#contact"

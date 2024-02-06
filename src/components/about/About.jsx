@@ -64,8 +64,7 @@ function About() {
 						channel with 9K subscribers and counting, called How To
 						Become A Developer, which has also been shared by
 						freeCodeCamp.org. This is the best place to see my code
-						and reasoning. Check it out
-						<a href="https://www.youtube.com/"> HERE</a>.
+						and reasoning.
 					</p>
 					<a href="#contact" className="btn btn-primary">
 						Let's Talk

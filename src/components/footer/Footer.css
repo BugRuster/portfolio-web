@@ -17,6 +17,12 @@ footer a {
     display: inline-block;
 }
 
+.footer-username {
+    display: block;
+    font-size: 1rem;
+    font-family: 'JetBrains Mono', monospace;
+}
+
 .permalinks {
     display: flex;
     flex-wrap: wrap;

@@ -8,7 +8,7 @@ function HeaderSocials() {
 			<a href="https://www.github.com/bugruster/">
 				<FaGithub />
 			</a>
-			<a href="https://www.linkedin.com/in/bugruster/sdfjsdfjsdjifsdjifs">
+			<a href="https://www.linkedin.com/in/bugruster/">
 				<FaLinkedin />
 			</a>
 			<a href="https://twitter.com/bugruster">

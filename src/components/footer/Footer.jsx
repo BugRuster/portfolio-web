@@ -8,6 +8,7 @@ function Footer() {
 		<footer>
 			<a href="#" className="footer-logo">
 				Anurag Sharma
+				<small className="footer-username">@bugruster</small>
 			</a>
 			<ul className="permalinks">
 				<li>
@@ -23,6 +24,9 @@ function Footer() {
 					<a href="#portfolio">Portfolio</a>
 				</li>
 				<li>
+					<a href="#certifications">Certifications</a>
+				</li>
+				<li>
 					<a href="#testimonials">Testimonials</a>
 				</li>
 				<li>
@@ -33,7 +37,7 @@ function Footer() {
 				<a href="https://www.github.com/bugruster/">
 					<FaGithub />
 				</a>
-				<a href="https://www.linkedin.com/in/bugruster/sdfjsdfjsdjifsdjifs">
+				<a href="https://www.linkedin.com/in/bugruster/">
 					<FaLinkedin />
 				</a>
 				<a href="https://twitter.com/bugruster">
