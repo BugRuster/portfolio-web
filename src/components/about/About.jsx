@@ -56,14 +56,6 @@ function About() {
 						skills in building robust websites and hybrid apps for
 						mobile platforms.
 					</p>
-					<p>
-						My journey in the world of programming led me to achieve
-						a 4-star rating on CodeChef, showcasing my prowess in
-						problem-solving with Data Structures and Algorithms.
-						Beyond conventional development, my interests extend to
-						the realm of cybersecurity, where I've delved into
-						securing digital landscapes.
-					</p>
 					<a href="#contact" className="btn btn-primary">
 						Let's Talk
 					</a>

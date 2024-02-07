@@ -1,25 +1,25 @@
 import "./Contact.css";
 import { useState } from "react";
-// import emailJS from "emailjs-com";
+import emailJS from "emailjs-com";
 import { FaPhone } from "react-icons/fa6";
 import { IoMailOpenOutline } from "react-icons/io5";
 
 function Contact() {
 	const [isEmailSent, setIsEmailSent] = useState(false);
 
-	// const sendEmail = (evt) => {
-	// 	evt.preventDefault();
-	// 	emailJS
-	// 		.sendForm(
-	// 			"service_jxtv4xm",
-	// 			"template_gnxwcoq",
-	// 			evt.target,
-	// 			"8y4tCAA_-K1JlPEk8"
-	// 		)
-	// 		.then(() => {
-	// 			setIsEmailSent(true);
-	// 		});
-	// };
+	const sendEmail = (evt) => {
+		evt.preventDefault();
+		emailJS
+			.sendForm(
+				"service_jxtv4xm",
+				"template_gnxwcoq",
+				evt.target,
+				"8y4tCAA_-K1JlPEk8"
+			)
+			.then(() => {
+				setIsEmailSent(true);
+			});
+	};
 
 	return (
 		<section id="contact">
@@ -31,7 +31,6 @@ function Contact() {
 						<IoMailOpenOutline />
 						<h4>Email</h4>
 						<h5>bugruster@gmail.com</h5>
-						<a href="mailto:bugruster@gmail.com">Send a message</a>
 					</article>
 
 					<article className="contact-option">
@@ -47,7 +46,7 @@ function Contact() {
 						Your message was successfully sent!
 					</h2>
 				) : (
-					<form>
+					<form onSubmit={sendEmail}>
 						<input
 							type="text"
 							name="name"
