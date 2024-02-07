@@ -23,9 +23,8 @@ function Contact() {
 				evt.target,
 				EMAILJS_PUBLIC_KEY
 			)
-			.then((response) => {
+			.then(() => {
 				setIsEmailSent(true);
-				console.log("Email sent successfully!", response);
 			})
 			.catch((err) => {
 				console.log("Error: ", err);
