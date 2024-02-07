@@ -4,20 +4,23 @@ const data = [
 	{
 		id: 1,
 		title: "Jigyasa Web and Flutter App",
-		github: "www.google.com",
-		demo: "www.google.com",
+		imgSrc: "/images/protfolio/jigyasa.png",
+		github: "https://github.com/BugRuster/",
+		demo: "https://jigyasa.vercel.app/",
 	},
 	{
 		id: 2,
-		title: "Jigyasa Web and Flutter App",
-		github: "www.google.com",
-		demo: "www.google.com",
+		title: "Todo Flutter App",
+		imgSrc: "/images/protfolio/todo.png",
+		github: "https://github.com/BugRuster/todo",
+		demo: "",
 	},
 	{
 		id: 3,
-		title: "Jigyasa Web and Flutter App",
-		github: "www.google.com",
-		demo: "www.google.com",
+		title: "Madhyam",
+		imgSrc: "/images/protfolio/madhyam.png",
+		github: "https://github.com/BugRuster/Sign-Language-Conversation-",
+		demo: "",
 	},
 ];
 
@@ -30,7 +33,7 @@ function Portfolio() {
 				{data.map((data) => (
 					<article key={data.id} className="portfolio-item">
 						<div className="portfolio-item-image">
-							<img src="" alt={data.title} />
+							<img src={data.imgSrc} alt={data.title} />
 						</div>
 						<h3>{data.title}</h3>
 						<div className="portfolio-item-cta">
