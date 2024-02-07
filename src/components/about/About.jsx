@@ -33,7 +33,7 @@ function About() {
 							<IoRocketSharp className="about-icon" />
 							<h5>Projects</h5>
 							<small>
-								40+ Completed <br />
+								20+ Completed <br />
 								and Counting
 							</small>
 						</article>
