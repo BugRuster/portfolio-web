@@ -8,7 +8,7 @@ import { GrCertificate } from "react-icons/gr";
 import { LuMessageSquare } from "react-icons/lu";
 
 function Nav() {
-	const [activeItem, setActiveItem] = useState("#");
+	const [activeItem, setActiveItem] = useState("home");
 
 	const handleClick = (item) => {
 		setActiveItem(item);
@@ -41,18 +41,6 @@ function Nav() {
 		window.addEventListener("scroll", handleScroll);
 		return () => {
 			window.removeEventListener("scroll", handleScroll);
-		};
-	}, []);
-
-	useEffect(() => {
-		const handleUrlAnchorChange = () => {
-			const sectionFromUrl = window.location.hash.substr(1);
-			setActiveItem(sectionFromUrl);
-		};
-
-		window.addEventListener("hashchange", handleUrlAnchorChange);
-		return () => {
-			window.removeEventListener("hashchange", handleUrlAnchorChange);
 		};
 	}, []);
 
@@ -105,87 +93,3 @@ function Nav() {
 }
 
 export default Nav;
-
-// import React, { useState, useEffect } from 'react';
-
-// const Header = () => {
-//   const [activeSection, setActiveSection] = useState('section-1');
-
-//   const handleLinkClick = (section) => {
-//     setActiveSection(section);
-//     scrollToSection(section);
-//   };
-
-//   const scrollToSection = (section) => {
-//     const element = document.getElementById(section);
-//     element.scrollIntoView({ behavior: 'smooth' });
-//   };
-
-//   useEffect(() => {
-//     const handleScroll = () => {
-//       const scrollPosition = window.scrollY;
-//       const sections = document.querySelectorAll('section');
-
-//       sections.forEach((section) => {
-//         const sectionTop = section.offsetTop;
-//         const sectionHeight = section.offsetHeight;
-
-//         if (
-//           scrollPosition >= sectionTop - 50 && // Adjust the offset as needed
-//           scrollPosition < sectionTop + sectionHeight - 50 // Adjust the offset as needed
-//         ) {
-//           setActiveSection(section.id);
-//         }
-//       });
-//     };
-
-//     window.addEventListener('scroll', handleScroll);
-//     return () => {
-//       window.removeEventListener('scroll', handleScroll);
-//     };
-//   }, []);
-
-//   useEffect(() => {
-//     const handleUrlAnchorChange = () => {
-//       const sectionFromUrl = window.location.hash.substr(1);
-//       setActiveSection(sectionFromUrl);
-//     };
-
-//     window.addEventListener('hashchange', handleUrlAnchorChange);
-//     return () => {
-//       window.removeEventListener('hashchange', handleUrlAnchorChange);
-//     };
-//   }, []);
-
-//   useEffect(() => {
-//     window.location.hash = activeSection;
-//   }, [activeSection]);
-
-//   return (
-//     <nav>
-//       <ul>
-//         <li>
-//           <a
-//             href="#section-1"
-//             className={activeSection === 'section-1' ? 'active' : ''}
-//             onClick={() => handleLinkClick('section-1')}
-//           >
-//             Section 1
-//           </a>
-//         </li>
-//         <li>
-//           <a
-//             href="#section-2"
-//             className={activeSection === 'section-2' ? 'active' : ''}
-//             onClick={() => handleLinkClick('section-2')}
-//           >
-//             Section 2
-//           </a>
-//         </li>
-//         {/* Add more links for other sections */}
-//       </ul>
-//     </nav>
-//   );
-// };
-
-// export default Header;

@@ -24,57 +24,43 @@ const data = [
 	},
 	{
 		id: 4,
-		title: "High-Impact Business Writing",
-		imgSrc: "/images/certifications/high-impact-business-writing.png",
-		showLink:
-			"https://www.coursera.org/account/accomplishments/verify/58YW4Z3HAGFZ",
-	},
-	{
-		id: 5,
 		title: "Data Structures",
 		imgSrc: "/images/certifications/data-structures.png",
 		showLink:
 			"https://www.coursera.org/account/accomplishments/verify/58YW4Z3HAGFZ",
 	},
 	{
-		id: 6,
+		id: 5,
 		title: "Introduction to Bash Shell Scripting",
 		imgSrc: "/images/certifications/intro-to-bash-shell-scripting.png",
 		showLink:
 			"https://www.coursera.org/account/accomplishments/verify/33SZPBKBGEXG",
 	},
 	{
-		id: 7,
+		id: 6,
 		title: "Cyber Security Fundamentals",
 		imgSrc: "/images/certifications/cyber-security-fundamentals.png",
 		showLink:
 			"https://www.coursera.org/account/accomplishments/verify/2R8XDRU5DNQ5",
 	},
 	{
-		id: 8,
+		id: 7,
 		title: "Introduction to Cybersecurity Tools & Cyber Attacks",
 		imgSrc: "/images/certifications/intro-to-cybersecurity-tools-and-cyber-attacks.png",
 		showLink:
 			"https://www.coursera.org/account/accomplishments/verify/5T9PZZCVB2EZ",
 	},
 	{
-		id: 9,
+		id: 8,
 		title: "Java (Basic) Certificate",
 		imgSrc: "/images/certifications/java-basic-certificate.png",
 		showLink: "https://www.hackerrank.com/certificates/c9c47f866df0",
 	},
 	{
-		id: 10,
+		id: 9,
 		title: "Python (Basic) Certificate",
 		imgSrc: "/images/certifications/python-basic-certificate.png",
 		showLink: "https://www.hackerrank.com/certificates/454ba8741101",
-	},
-	{
-		id: 11,
-		title: "Introduction to Virtual Reality",
-		imgSrc: "/images/certifications/intro-to-virtual-reality.png",
-		showLink:
-			"https://www.coursera.org/account/accomplishments/verify/UWBX29JUEHBX",
 	},
 ];
 
