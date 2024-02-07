@@ -46,7 +46,7 @@ function Contact() {
 					<article className="contact-option">
 						<FaPhone />
 						<h4>Phone</h4>
-						<h5>+91 9012390123</h5>
+						<h5>+91 9001233651</h5>
 					</article>
 				</div>
 
