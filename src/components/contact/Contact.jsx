@@ -1,23 +1,34 @@
 import "./Contact.css";
 import { useState } from "react";
-import emailJS from "emailjs-com";
+import emailJS from "@emailjs/browser";
 import { FaPhone } from "react-icons/fa6";
 import { IoMailOpenOutline } from "react-icons/io5";
 
 function Contact() {
+	// EmailJS configs
+	const EMAILJS_SERVICE_ID = "service_hxwjhpn";
+	const EMAILJS_TEMPLATE_ID = "template_gmg7quo";
+	const EMAILJS_PUBLIC_KEY = "MILREBnmkS5Qmwz_-";
+
 	const [isEmailSent, setIsEmailSent] = useState(false);
 
+	// send the email using EmailJS
 	const sendEmail = (evt) => {
 		evt.preventDefault();
+		console.log(evt.target);
 		emailJS
 			.sendForm(
-				"service_jxtv4xm",
-				"template_gnxwcoq",
+				EMAILJS_SERVICE_ID,
+				EMAILJS_TEMPLATE_ID,
 				evt.target,
-				"8y4tCAA_-K1JlPEk8"
+				EMAILJS_PUBLIC_KEY
 			)
-			.then(() => {
+			.then((response) => {
 				setIsEmailSent(true);
+				console.log("Email sent successfully!", response);
+			})
+			.catch((err) => {
+				console.log("Error: ", err);
 			});
 	};
 
